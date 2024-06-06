@@ -60,11 +60,10 @@ public class Main {
 				   novaSala.listarSituacoes();
 				break;
 			   default:
-				System.out.println("Opção Inválida");
+				System.out.println("Sessão Finalizada");
 			}
 			
 		} while (opcao != 0);
-
 		escolha.close();
 	} 
 
